@@ -1,2 +1,2 @@
-# notes_app
-Notes app
+# gfg_notes_app
+Notes App
