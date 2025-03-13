@@ -1,7 +1,7 @@
 import { useNotes } from "../../context/notes-context";
 import { findNotesInArchive } from "../../utils/findNotesInArchive";
 
-export const NotesCard = ({ id, title, text, isPinned }) => {
+export const Notescard = ({ id, title, text, isPinned }) => {
 
     const { notesDispatch, archive } = useNotes();
 
