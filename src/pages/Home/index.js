@@ -74,7 +74,7 @@ export const Home = () => {
 
                                 {
                                     otherNotes?.length > 0 && otherNotes.map(({ id, title, text, isPinned }) => (
-                                        <NotesCard key={id} id={id} title={title} text={text} isPinned={isPinned} />
+                                        <Notescard key={id} id={id} title={title} text={text} isPinned={isPinned} />
                                     ))
                                 }
                             </div>
