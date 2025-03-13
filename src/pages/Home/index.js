@@ -1,7 +1,7 @@
 import { Navbar } from "../../components/Navbar";
 import { Fragment } from 'react'
 import { SideBar } from "../../components/Sidebar";
-import { NotesCard } from "../../components/NotesCard";
+import { Notescard } from "../../components/Notescard";
 import { useNotes } from "../../context/notes-context";
 
 export const Home = () => {
@@ -59,7 +59,7 @@ export const Home = () => {
 
                                         {
                                             pinnedNotes?.length > 0 && pinnedNotes.map(({ id, title, text, isPinned }) => (
-                                                <NotesCard key={id} id={id} title={title} text={text} isPinned={isPinned} />
+                                                <Notescard key={id} id={id} title={title} text={text} isPinned={isPinned} />
                                             ))
                                         }
                                     </div>
